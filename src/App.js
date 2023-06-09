@@ -5,10 +5,13 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Navbar from './components/Navbar';
+import Blog from './components/Blog';
 
 function App() {
   return (
     <>
+    <Navbar/>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -18,6 +21,7 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
+      <Blog/>
       {/* <Footer/> */}
     </>
   );
