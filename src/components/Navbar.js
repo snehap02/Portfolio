@@ -8,10 +8,10 @@ const Navbar = () => {
           {/* desktop */}
             <div className="lg:flex justify-between h-20 lg:px-14">
                 <div>
-                <a href="/"><img src="../images/logo.png" className="w-40 -mt-8 -ml-5"/></a>
+                <a href="/"><img src="../images/logo.png" className="sm:w-40 w-28 -mt-8 -ml-5"/></a>
                 </div>
                 <div className="lg:flex hidden justify-center leading-[80px]">
-                    <ul className="flex gap-20 cursor-pointer font-lato text-lg tracking-wider px-10 leading-[60px]">
+                    <ul className="flex gap-20 cursor-pointer font-lato uppercase tracking-wider px-10 leading-[60px]">
                         <li className="hover:scale-105 transition duration-500"><a href="/about">About</a></li>
                         <li className="hover:scale-105 transition duration-500"><a href="/skills">Skills</a></li>
                         <li className="hover:scale-105 transition duration-500"><a href="/projects">Projects</a></li>

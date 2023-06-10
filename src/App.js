@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Blog from './components/Blog';
 import Iconpack from './components/Iconpack';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       </BrowserRouter>
       <Iconpack/>
       <Blog/>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }
