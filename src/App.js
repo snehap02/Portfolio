@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Blog from './components/Blog';
+import Iconpack from './components/Iconpack';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
+      <Iconpack/>
       <Blog/>
       {/* <Footer/> */}
     </>

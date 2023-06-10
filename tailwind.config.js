@@ -5,7 +5,13 @@ module.exports = {
     extend: {
       fontFamily:{
         syncopate: 'Syncopate',
-        raleway: 'Raleway'
+        raleway: 'Raleway',
+        poppins: 'Poppins',
+        montserrat: 'Montserrat',
+        roboto: 'Roboto',
+        robotoMono: 'Roboto Mono',
+        lato: 'Lato',
+        inter: 'Inter'
       }
     },
   },
