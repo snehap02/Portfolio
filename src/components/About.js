@@ -1,8 +1,23 @@
 import React from 'react'
+import Iconpack from './Iconpack'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <div>
+      <Iconpack />
+      <div className='flex flex-col'>
+        <h1 className='flex font-robotoMono text-5xl ml-4 mt-9'>
+          01.
+        </h1>
+        <div className='flex flex-col w-[300px] ml-4'>
+          <h1 className='text-2xl pt-7 font-syncopate font-bold'>README</h1>
+          <p className='pt-5 font-lato text-sm'><span>&lt; Hello World &gt;, </span> I'm Sneha Purkayastha, a Front-end Developer. I can turn your beautiful ideas into reality. My expertise is in the field of responsive designs and I love to engage myself with tailwind css. </p>
+          <span className='mt-1'>In addition to my attachment with making beautiful websites, I try to write some useful blogs. </span>
+        </div>
+      </div>
+      </div>
+    </>
   )
 }
 

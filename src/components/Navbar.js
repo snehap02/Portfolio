@@ -31,16 +31,16 @@ const Navbar = () => {
             <div className="lg:flex hidden justify-center leading-[80px]">
               <ul className="flex gap-20 cursor-pointer font-lato uppercase font-bold tracking-wider px-10 leading-[60px]">
                 <li className="hover:scale-105 transition duration-500">
-                  <a href="/about">About</a>
+                  <a href="/about"><span className="font-robotoMono font-light">01. </span>About</a>
                 </li>
                 <li className="hover:scale-105 transition duration-500">
-                  <a href="/skills">Skills</a>
+                  <a href="/skills"><span className="font-robotoMono font-light">02. </span>Skills</a>
                 </li>
                 <li className="hover:scale-105 transition duration-500">
-                  <a href="/projects">Projects</a>
+                  <a href="/projects"><span className="font-robotoMono font-light">03. </span>Projects</a>
                 </li>
                 <li className="hover:scale-105 transition duration-500">
-                  <a href="/contact">Contact</a>
+                  <a href="/contact"><span className="font-robotoMono font-light">04. </span>Contact</a>
                 </li>
               </ul>
             </div>
@@ -53,16 +53,16 @@ const Navbar = () => {
           >
             <ul className="uppercase font-lato -mt-24 px-7 flex flex-col text-xl md:text-3xl gap-14 cursor-pointer fixed text-white text-center md:tracking-widest">
               <li className="hover:scale-105 transition duration-500">
-                <a href="/about">About</a>
+                <a href="/about"><span className="font-robotoMono font-light">01. </span>About</a>
               </li>
               <li className="hover:scale-105 transition duration-500">
-                <a href="/skills">Skills</a>
+                <a href="/skills"><span className="font-robotoMono font-light">02. </span>Skills</a>
               </li>
               <li className="hover:scale-105 transition duration-500">
-                <a href="/projects">Projects</a>
+                <a href="/projects"><span className="font-robotoMono font-light">03. </span>Projects</a>
               </li>
               <li className="hover:scale-105 transition duration-500">
-                <a href="/contact">Contact</a>
+                <a href="/contact"><span className="font-robotoMono font-light">04. </span>Contact</a>
               </li>
             </ul>
           </div>
