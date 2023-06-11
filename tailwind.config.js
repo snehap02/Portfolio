@@ -12,6 +12,11 @@ module.exports = {
         robotoMono: 'Roboto Mono',
         lato: 'Lato',
         inter: 'Inter'
+      },
+      screens:{
+        '520': "520px",
+        '600': "600px",
+        '820': "820px"
       }
     },
   },

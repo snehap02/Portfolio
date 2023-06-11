@@ -3,7 +3,7 @@ import React from "react";
 const Iconpack = () => {
   return (
     <>
-      <div className="flex justify-end fixed right-0 mr-2 h-40">
+      <div className="flex justify-end fixed right-0 mr-2 h-40 -mt-8 900:-mt-0">
       <div className="bg-black w-28 h-[1px] rotate-90 sm:-mr-[72px] -mr-[70px] mt-20"></div>
         <div className="flex flex-col gap-4 mt-40 sm:-mr-[77px] -mr-[75px]">
           <div>

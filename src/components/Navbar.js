@@ -48,7 +48,7 @@ const Navbar = () => {
           {/* mobile */}
           <div
             className={`lg:hidden fixed bg-neutral-800 w-full h-screen flex flex-col justify-center items-center duration-700 z-50 ${
-              open ? 'left-0' : 'left-[-100%]'
+              open ? "left-0" : "left-[-100%]"
             }`}
           >
             <ul className="uppercase font-lato -mt-24 px-7 flex flex-col text-xl md:text-3xl gap-14 cursor-pointer fixed text-white text-center md:tracking-widest">
