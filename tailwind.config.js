@@ -16,10 +16,13 @@ module.exports = {
       screens:{
         '520': "520px",
         '600': "600px",
-        '820': "820px"
+        '820': "820px",
+        '900': "900px"
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
 

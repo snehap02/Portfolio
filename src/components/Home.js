@@ -19,7 +19,7 @@ const Home = () => {
           <h1 className="xl:text-[200px] 600:text-7xl 820:text-[100px] lg:text-[140px] xl:leading-[180px] text-5xl 520:text-6xl font-robotoMono 520:text-center tracking-wider pt-5 pl-4 xl:pl-0">FRONT-END <br/>DEVELOPER</h1>
         </div>
       </div>
-      <Blog/>
+      {/* <Blog/> */}
       <Footer/>
     </>
   );
