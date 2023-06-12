@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
           {/* mobile */}
           <div
-            className={`lg:hidden fixed bg-neutral-800 w-full h-screen flex flex-col justify-center items-center duration-700 z-50 ${
+            className={`lg:hidden -mt-3 fixed bg-neutral-800 w-full h-screen flex flex-col justify-center items-center duration-700 z-50 ${
               open ? "left-0" : "left-[-100%]"
             }`}
           >

@@ -1,13 +1,9 @@
 import React from "react";
-import Iconpack from "./Iconpack";
-import Blog from "./Blog";
-import Footer from "./Footer";
 
 const Home = () => {
   return (
     <>
       <div className="h-[600px]">
-        {/* <Iconpack /> */}
         <div className="flex flex-col 520:flex-row justify-evenly pt-36 900:pt-28 lg:pt-14 pl-4 xl:pl-0">
           <h1 className="xl:text-5xl text-3xl 600:text-5xl  font-poppins tracking-wider text-neutral-600">
             Hello,
@@ -28,10 +24,7 @@ const Home = () => {
             DEVELOPER
           </h1>
         </div>
-        {/* <div className="hidden xl:flex justify-center items-center font-poppins text-neutral-600 pt-5 text-xl"><h1>I can turn your beautiful ideas into reality.</h1></div> */}
       </div>
-      {/* <Blog/> */}
-      {/* <Footer /> */}
     </>
   );
 };
