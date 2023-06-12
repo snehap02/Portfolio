@@ -5,7 +5,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <nav className="w-full z-50 h-20">
+      <nav className="w-full z-50 h-20 fixed bg-white">
         <div>
           {/* desktop */}
           <div className="lg:flex justify-between h-20 lg:px-14">

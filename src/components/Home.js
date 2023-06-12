@@ -3,8 +3,8 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <div className="h-[600px]">
-        <div className="flex flex-col 520:flex-row justify-evenly pt-36 900:pt-28 lg:pt-14 pl-4 xl:pl-0">
+      <div className="h-[600px] xl:h-[680px]">
+        <div className="flex flex-col 520:flex-row justify-evenly pt-52 900:pt-40 xl:-mt-10 pl-4 xl:pl-0">
           <h1 className="xl:text-5xl text-3xl 600:text-5xl  font-poppins tracking-wider text-neutral-600">
             Hello,
           </h1>
