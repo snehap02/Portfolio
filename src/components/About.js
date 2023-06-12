@@ -8,7 +8,7 @@ const About = () => {
         <h1 className='flex font-robotoMono text-3xl md:text-5xl ml-8 sm:ml-14 md:ml-20 mt-9 md:mt-10 xl:ml-28'>
           01.
         </h1>
-        <div className='flex flex-col w-[350px] 520:w-[390px] sm:w-[450px] lg:w-[580px] xl:w-[690px] ml-8 sm:ml-14'>
+        <div className='flex flex-col w-[280px] md-2:w-[380px] 520:w-[390px] sm:w-[450px] lg:w-[580px] xl:w-[690px] ml-8 sm:ml-14'>
         <div>
         <h1 className='text-6xl pt-7 font-georgian tracking-wider font-bold md:text-7xl relative'>README</h1>
         <div class="absolute hidden lg:flex w-32 h-[1px] bg-black -mt-5 lg:ml-[340px] lg:-mt-8 xl:-mt-7"></div>
