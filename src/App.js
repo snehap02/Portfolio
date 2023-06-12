@@ -13,7 +13,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
+    <div className='overflow-x-hidden'>
     <Navbar/>
+    <Iconpack/>
+    <Footer/>
+    <Blog/>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -23,9 +27,7 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
-      {/* <Iconpack/> */}
-      <Blog/>
-      <Footer/>
+    </div>
     </>
   );
 }

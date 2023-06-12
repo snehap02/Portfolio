@@ -11,7 +11,8 @@ module.exports = {
         roboto: 'Roboto',
         robotoMono: 'Roboto Mono',
         lato: 'Lato',
-        inter: 'Inter'
+        inter: 'Inter',
+        georgian: 'Noto Sans Georgian'
       },
       screens:{
         '520': "520px",
