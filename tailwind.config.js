@@ -29,6 +29,9 @@ module.exports = {
         'lg-3': '1200px',
         'lg-4': '1095px',
         'lg-5': '1380px'
+      },
+      animation:{
+        'fast-pulse': 'pulse 0.5s linear infinite'
       }
     },
   },
