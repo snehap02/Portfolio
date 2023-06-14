@@ -3,7 +3,7 @@ import React from "react";
 const Modal = ({ closeModal }) => {
   return (
     <>
-      <div className="z-50 w-screen top-0 h-[110vh] bg-neutral-600 opacity-95 absolute flex justify-center items-center">
+      <div className="z-50 w-screen top-0 h-[100vh] bg-neutral-600 opacity-95 absolute flex justify-center items-center">
         <div className="bg-white px-10 py-3 flex flex-col">
           <div className="cursor-pointer flex justify-end">
             <ion-icon
