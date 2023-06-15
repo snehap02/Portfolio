@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <>
+    <> 
       <div className="h-[680px]">
         <div className="flex flex-col md:flex-row pt-10 sm:pt-16 lg:pt-32 xl:pt-24">
           <h1 className="flex font-robotoMono text-3xl md:text-5xl ml-8 sm:ml-14 md:ml-20 pt-10 md:pt-7 xl:ml-28">
@@ -31,7 +31,7 @@ const About = () => {
               </div>
               <div className="flex flex-col gap-5">
                 <h1 className="font-poppins text-sm pt-7 tracking-wider font-medium w-64 540:w-full 540:text-lg">
-                  List Of Languages, Frameworks and Tools I use
+                  List Of Languages, Frameworks and Tools I use :
                 </h1>
                 <div className="flex gap-2 540:gap-8 lg:gap-16 xl:gap-24">
                   <div className="flex flex-col gap-4">
