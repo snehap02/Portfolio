@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <> 
+    <>
       <div className="h-[680px]">
         <div className="flex flex-col md:flex-row pt-10 sm:pt-16 lg:pt-32 xl:pt-24">
           <h1 className="flex font-robotoMono text-3xl md:text-5xl ml-8 sm:ml-14 md:ml-20 pt-10 md:pt-7 xl:ml-28">
