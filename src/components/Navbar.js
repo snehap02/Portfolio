@@ -33,14 +33,14 @@ const Navbar = () => {
                 <li className="hover:scale-105 transition duration-500">
                   <a href="/about"><span className="font-robotoMono font-light">01. </span>About</a>
                 </li>
-                <li className="hover:scale-105 transition duration-500">
+                {/* <li className="hover:scale-105 transition duration-500">
                   <a href="/skills"><span className="font-robotoMono font-light">02. </span>Skills</a>
+                </li> */}
+                <li className="hover:scale-105 transition duration-500">
+                  <a href="/projects"><span className="font-robotoMono font-light">02. </span>Projects</a>
                 </li>
                 <li className="hover:scale-105 transition duration-500">
-                  <a href="/projects"><span className="font-robotoMono font-light">03. </span>Projects</a>
-                </li>
-                <li className="hover:scale-105 transition duration-500">
-                  <a href="/contact"><span className="font-robotoMono font-light">04. </span>Contact</a>
+                  <a href="/contact"><span className="font-robotoMono font-light">03. </span>Contact</a>
                 </li>
               </ul>
             </div>
@@ -55,14 +55,14 @@ const Navbar = () => {
               <li className="hover:scale-105 transition duration-500">
                 <a href="/about"><span className="font-robotoMono font-light">01. </span>About</a>
               </li>
-              <li className="hover:scale-105 transition duration-500">
+              {/* <li className="hover:scale-105 transition duration-500">
                 <a href="/skills"><span className="font-robotoMono font-light">02. </span>Skills</a>
+              </li> */}
+              <li className="hover:scale-105 transition duration-500">
+                <a href="/projects"><span className="font-robotoMono font-light">02. </span>Projects</a>
               </li>
               <li className="hover:scale-105 transition duration-500">
-                <a href="/projects"><span className="font-robotoMono font-light">03. </span>Projects</a>
-              </li>
-              <li className="hover:scale-105 transition duration-500">
-                <a href="/contact"><span className="font-robotoMono font-light">04. </span>Contact</a>
+                <a href="/contact"><span className="font-robotoMono font-light">03. </span>Contact</a>
               </li>
             </ul>
           </div>
