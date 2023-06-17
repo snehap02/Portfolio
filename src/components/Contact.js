@@ -33,10 +33,10 @@ const Contact = () => {
           </h1>
           <div className="flex flex-col w-[280px] md-2:w-[390px] 520:w-[390px] sm:w-[450px] md:w-[500px] lg:w-[580px] xl:w-[900px] ml-14">
             <div>
-              <h1 className="text-[26px] sm:text-4xl lg:text-6xl pt-1 520:pt-9 520:-ml-9 font-georgian tracking-wider font-bold relative lg:-mt-1">
+              <h1 className="text-[26px] sm:text-4xl lg:text-5xl xl:text-6xl pt-1 520:pt-9 520:-ml-9 font-georgian tracking-wider font-bold relative uppercase">
                 Let's Get In Touch
               </h1>
-              <div class="absolute hidden 740:flex w-32 h-[1px] bg-black -mt-5 ml-[340px] lg:ml-[580px] lg:-mt-6"></div>
+              <div class="absolute hidden 740:flex w-32 h-[1px] bg-black -mt-5 ml-[380px] lg:ml-[520px] xl:ml-[630px] lg:-mt-6"></div>
             </div>
           </div>
           
@@ -79,7 +79,7 @@ const Contact = () => {
                       type="text"
                       id="name"
                       name="user_name"
-                      className="border-b border-b-neutral-400 outline-none pt-1" required
+                      className="border-b border-b-neutral-400 outline-none pt-1" required minlength="3" maxlength="100"
                     />
                   </div>
                   <div className="pt-8 px-8 flex flex-col">
@@ -106,7 +106,7 @@ const Contact = () => {
                     <textarea
                       id="message"
                       name="message"
-                      className="border border-neutral-400 outline-none mt-2 lg:h-24" required
+                      className="border border-neutral-400 outline-none mt-2 lg:h-24" required 
                     />
                   </div>
                   <div className="pt- px-8 pb-8 flex flex-col">
