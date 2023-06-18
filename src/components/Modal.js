@@ -4,7 +4,7 @@ const Modal = ({ closeModal }) => {
   return (
     <>
       <div className="z-50 w-screen top-0 h-[100vh] bg-neutral-600 opacity-95 absolute flex justify-center items-center">
-        <div className="bg-white px-10 py-3 flex flex-col">
+        <div className="bg-[#FAF0E4] px-10 py-3 flex flex-col">
           <div className="cursor-pointer flex justify-end">
             <ion-icon
               name="close-outline"

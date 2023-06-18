@@ -5,7 +5,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <nav className="w-full z-50 h-20 fixed bg-white">
+      <nav className="w-full z-50 h-20 fixed bg-[#FAF0E4]">
         <div>
           {/* desktop */}
           <div className="lg:flex justify-between h-20 lg:px-14">
@@ -47,11 +47,11 @@ const Navbar = () => {
           </div>
           {/* mobile */}
           <div
-            className={`lg:hidden -mt-3 fixed bg-neutral-800 w-full h-screen flex flex-col justify-center items-center duration-700 z-50 ${
+            className={`lg:hidden -mt-3 fixed bg-[#FAF0E4] w-full h-screen flex flex-col justify-center items-center duration-700 z-50 ${
               open ? "left-0" : "left-[-100%]"
             }`}
           >
-            <ul className="uppercase font-lato -mt-24 px-7 flex flex-col text-xl md:text-3xl gap-14 cursor-pointer fixed text-white text-center md:tracking-widest">
+            <ul className="uppercase font-lato -mt-24 px-7 flex flex-col text-xl md:text-3xl gap-14 cursor-pointer fixed text-center md:tracking-widest">
               <li className="hover:scale-105 transition duration-500">
                 <a href="/about"><span className="font-robotoMono font-light">01. </span>About</a>
               </li>

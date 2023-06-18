@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <div className="h-[600px] xl:h-[680px]">
+      <div className="h-[700px] xl:h-[740px] bg-[#FAF0E4]">
         <div className="flex flex-col 520:flex-row justify-evenly pt-52 900:pt-40 xl:-mt-10 pl-4 xl:pl-0">
           <h1 className="xl:text-5xl text-3xl 600:text-5xl  font-poppins tracking-wider text-neutral-600">
             Hello,
@@ -30,3 +30,14 @@ const Home = () => {
 };
 
 export default Home;
+
+
+// style={{
+//   color: '#000000',
+//   backgroundImage: '-webkit-radial-gradient(circle, #000000 8%, #9e662e 60%, #000000 79%)',
+//   backgroundClip: 'text',
+//   WebkitBackgroundClip: 'text',
+//   WebkitTextFillColor: 'transparent',
+
+
+// }}
